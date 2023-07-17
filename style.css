@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:n border-box;
+    font-family: 'arial', sans-serif;
+}
+
+section header
+{
+    position:absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+section header ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section header ul li
+{
+    list-style: none;
+    margin-left: 20px;
+}
+section header ul li a
+{
+    color: #111;
+    text-decoration: none;
+    font-size: 13px;
+}
+section header ul li button
+{
+    background: #4584ef;
+    border: none;
+    outline: none;
+    padding: 8px 14px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 3px;
+    cursor: pointer;
+}
+section .main
+{
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.image
+{
+    
+    height: 100px;
+    padding: 5px;
+}
+
+.card
+{
+    background-color: white;
+    width: 90px;
+    height: 90px;
+    border-radius: 9px;
+    text-align: center;
+    margin: 5px;
+    margin-left: 8px;
+}
+.app-images
+{
+   width: 40px;
+   height: 40px;
+   margin: 10px;  
+} 
+.app-text
+{
+    text-align: center;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.profile{
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+}
+.lucky:hover{
+    box-shadow: 0.2px 0.2px 0.5px 0.9px rgba(203,199,199,0.5);
+}
+.gsearch:hover{
+     box-shadow:0.2px 0.2px 0.5px 0.9px rgba(203,199,199,0.5);
+}
+.asdf:hover{
+    box-shadow:0.2px 0.2px 0.5px 0.9px rgba(203,199,199,0.5);
+}
+.asdf{
+    border: 1px solid rgb(235, 233, 233);
+    width: 570px;
+    height: 50px;
+    border-radius: 30px;
+    align-items: center;
+    padding: 9px;
+    border-width: 2px;
+}
+.inputt{
+    border: none;
+    outline: none;
+    width: 500px;
+    margin-left: 20px;
+}
+.india{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+   
+    font-size: 15px;
+    color: #70757a;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.ul-li li{
+    display:inline;
+    
+    
+}
+.footer-left{
+    color: #70757a;
+    float: left;
+}
+.footer-right{
+    float: right;
+    
+}
